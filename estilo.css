@@ -1,0 +1,114 @@
+/*truco para poner a todo*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    /*1200*/
+}
+
+.mar{
+    padding: 15px; /*margen interno*/
+    
+}
+
+.ancho{
+    width: 1200px; 
+    margin: auto;/*Para centrar margen externo*/
+    /*border: 1px red solid;*/
+}
+
+h1{
+    text-align: left;
+}
+
+.contenedor_logo{
+    
+    text-align: center;
+}
+
+.contenedor_logo img{ 
+    height: 100px;
+    
+} 
+
+.logotec{
+    margin-left: 80px;
+
+}
+
+.contenedor_menu{
+    background-color: #1b396a;
+    text-align: center;
+}
+
+.links{
+    color: #fff;
+    text-decoration: none;
+    border: 1px #fff solid;
+    padding:  5px 25px;
+    display: inline-block;
+    margin:  8px;
+    border-radius: 10px; /*para bordear*/
+}
+
+.slide_foto img{
+    width: 100%;/*pa que llene todo*/
+}
+
+.rojo{
+    color: #800000;
+}
+
+.azul{
+    color: #1b396a;
+}
+
+.dorado{
+    color: #cc9900;
+}
+
+.contenedor_final{
+    background-color: #295c52;
+    text-align: center;
+}
+
+.contenedor_final img{
+    height: 60px;
+}
+
+.btn_rojo{
+    background-color: #800000;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-bottom: 50px;
+
+}
+
+.titulos{
+    background-color: #ececec;
+    padding: 20px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #800000;
+}
+
+.links_carreras{
+    /*border: 1px red solid;*/
+    display: block;
+    margin-bottom: 10px;
+    color: #1b396a;
+    font-weight: bold;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
